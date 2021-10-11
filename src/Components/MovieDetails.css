@@ -1,0 +1,52 @@
+.movieDetails{
+    transition: all 1s ease-in;
+    background: linear-gradient(#e7feff 0%,#e7feff 10%, #e7feff 70%, white 100%);
+    text-align: left;
+    padding:2px;
+}
+
+.ratingValue{
+    border:2px solid #002147;
+    border-radius: 10px;
+    padding:2px;
+    margin:2px;
+    font-weight: bold;
+    color:#002147;
+}
+.ratings{
+    display: block;
+}
+
+.plot{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top:0.625rem;
+}
+
+.actorsSpan, .release, .director, .genre, .awards, .language, .writer  {
+    font-weight: bold;
+    color:#002147;
+}
+
+.release{
+    font-weight: bold;
+    color:#002147;
+}
+
+.director{
+    font-weight: bold;
+    color:#002147;
+}
+
+.genre{
+    font-weight: bold;
+    color:#002147;
+}
+
+@media (min-width:801px)  {
+    .ratings{
+        display: flex;
+    }
+}

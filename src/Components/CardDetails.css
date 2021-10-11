@@ -1,0 +1,49 @@
+.cardDetails{
+    display: flex;
+    margin:0.625rem;
+}
+
+.cardDetails:hover{
+    background-color: #e7feff;
+}
+
+.posterImage{
+    height:40%;
+    width:40%;
+}
+
+.detailsButton{
+    background-color: #002147;
+    color:white;
+    display:flex;
+    padding:0.3125rem;
+    cursor:pointer;
+}
+
+.detailsButton:hover{
+    background-color: #000080;
+}
+
+.detailsButtonPlusMinus{
+    margin-left: auto;
+    padding-right:0.625rem;
+
+}
+
+
+.cardRightSide{
+    display:block;
+    margin:0.625rem;
+    width:100%;
+    margin-top: 0;
+}
+
+.RightTitle{
+    text-align: left;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.detailsVisible{
+    display:none;
+}

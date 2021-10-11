@@ -1,0 +1,48 @@
+.searchAndImage{
+    display: block;
+}
+.searchInputText{
+    padding:0.725rem;
+    width: 80%;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.searchIcon{
+    transform: scale(0.3);
+}
+
+.searchButton{
+    margin:0.625rem 0 0.625rem 0;
+    border-radius: 5px;
+    padding:0.625rem;
+    color:#002147;
+    font-weight: bolder;
+    font-size: large;
+    width:87%;
+}
+
+.omdbLogo{
+    color:white;
+    font-weight: bolder;
+    font-size: xxx-large;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+@media (min-width:501px){
+    .searchAndImage{
+        display: flex;
+    }
+
+    .omdbLogo{
+        margin:0.625rem;
+    }
+    .searchButton{
+        width:20%;
+        margin:1rem;
+    }
+    .searchInputText{
+        margin:1rem;
+    }
+}
